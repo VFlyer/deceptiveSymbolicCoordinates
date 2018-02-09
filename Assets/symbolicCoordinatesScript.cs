@@ -1271,6 +1271,7 @@ public class symbolicCoordinatesScript : MonoBehaviour
 		public void OnlettersUp()
 		{
 				GetComponent<KMAudio>().PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, transform);
+				lettersUp.AddInteractionPunch(.5f);
 				lettersIndex = ((lettersIndex + lettersEntries.Length) - 1) % lettersEntries.Length;
 		    lettersText.text = lettersEntries[lettersIndex].ToString();
 		}
@@ -1278,6 +1279,7 @@ public class symbolicCoordinatesScript : MonoBehaviour
 		public void OnlettersDown()
 		{
 				GetComponent<KMAudio>().PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, transform);
+				lettersDown.AddInteractionPunch(.5f);
 		    lettersIndex = (lettersIndex + 1) % lettersEntries.Length;
 		    lettersText.text = lettersEntries[lettersIndex].ToString();
 		}
@@ -1285,6 +1287,7 @@ public class symbolicCoordinatesScript : MonoBehaviour
 		public void OndigitsUp()
 		{
 				GetComponent<KMAudio>().PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, transform);
+				digitsUp.AddInteractionPunch(.5f);
 				digitsIndex = ((digitsIndex + digitsEntries.Length) - 1) % digitsEntries.Length;
 		    digitsText.text = digitsEntries[digitsIndex].ToString();
 		}
@@ -1292,6 +1295,7 @@ public class symbolicCoordinatesScript : MonoBehaviour
 		public void OndigitsDown()
 		{
 				GetComponent<KMAudio>().PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, transform);
+				digitsDown.AddInteractionPunch(.5f);
 		    digitsIndex = (digitsIndex + 1) % digitsEntries.Length;
 		    digitsText.text = digitsEntries[digitsIndex].ToString();
 		}

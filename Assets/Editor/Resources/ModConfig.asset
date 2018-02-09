@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: symbolicCoordinates
   title: Symbolic Coordinates
-  description: 'Symbolic Coordinates v1.2
+  description: 'Symbolic Coordinates v1.21
 
     Those symbols are probably just a reference to where the mothership is docked,
     right?
@@ -28,6 +28,6 @@ MonoBehaviour:
 
 
     Manual available here: https://ktane.timwi.de/HTML/Symbolic%20Coordinates.html'
-  version: 1.2
+  version: 1.21
   outputFolder: build
   previewImage: {fileID: 2800000, guid: c169a5884560e461cbafcb144dd8b934, type: 3}
