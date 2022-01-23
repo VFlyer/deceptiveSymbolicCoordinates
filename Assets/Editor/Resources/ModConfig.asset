@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: symbolicCoordinates
   title: Symbolic Coordinates
-  description: 'Symbolic Coordinates v1.22
+  description: 'Symbolic Coordinates? v1.00
 
     Those symbols are probably just a reference to where the mothership is docked,
     right?
@@ -22,9 +22,7 @@ MonoBehaviour:
     Module ID: symbolicCoordinates
 
 
-    Created by: Royal_Flu$h
-
-    TwitchPlays implemented by: CaitSith2
+    Original Prefab by: Royal_Flu$h
 
 
     Manual available here: https://ktane.timwi.de/HTML/Symbolic%20Coordinates.html'
