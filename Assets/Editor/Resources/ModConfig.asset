@@ -11,21 +11,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 615501dbe4f3fe94fbf4b564abb10237, type: 3}
   m_Name: ModConfig
   m_EditorClassIdentifier: 
-  id: symbolicCoordinates
-  title: Symbolic Coordinates
+  id: FakeSymbolicCoordinatesMod
+  title: Symbolic Coordinates?
+  author: VFlyer
   description: 'Symbolic Coordinates? v1.00
 
-    Those symbols are probably just a reference to where the mothership is docked,
-    right?
+    [i]The mothership should have docked somewhere... Right? Why is it departing now?[/i]
 
 
-    Module ID: symbolicCoordinates
+    Module ID: deceptiveSymbolicCoordinates
 
+
+    Uploaded by VFlyer
 
     Original Prefab by: Royal_Flu$h
 
 
     Manual available here: https://ktane.timwi.de/HTML/Symbolic%20Coordinates.html'
-  version: 1.22
+  version: 1.00
   outputFolder: build
   previewImage: {fileID: 2800000, guid: c169a5884560e461cbafcb144dd8b934, type: 3}
